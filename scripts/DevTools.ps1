@@ -22,4 +22,3 @@ choco install AdoptOpenJDK8 --params="/ADDLOCAL=FeatureMain,FeatureEnvironment /
 
 RefreshEnv
 
-gsudo config CacheMode Auto
