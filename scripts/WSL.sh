@@ -25,32 +25,3 @@ curl -sL https://deb.nodesource.com/setup_14.x | bash -
 apt-get install -y nodejs
 
 apt-get install zsh
-
-# ASDF
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
-. $HOME/.asdf/asdf.sh
-asdf plugin add kubectl
-asdf plugin add kops
-asdf plugin add github-cli
-asdf plugin add sops
-asdf plugin add helmfile
-asdf plugin add kustomize
-asdf plugin add argocd
-asdf plugin add helm
-adsf plugin add rke
-asdf install kubectl 1.19.5
-asdf install kops v1.19.1
-asdf install github-cli 1.6.0
-asdf install sops v3.6.1
-asdf install helmfile 0.129.3
-asdf install kustomize 3.8.2
-asdf install argocd 1.8.4
-asdf install helm 3.4.1
-asdf install rke v1.2.3
-asdf install
-asdf install
-asdf install
-
-# create user
-
-useradd -m -s "$(which bash)" -G sudo joseph
