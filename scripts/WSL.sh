@@ -35,5 +35,5 @@ else
 
   chsh joseph -s /usr/bin/zsh
 
-  echo 'changeit' | sudo -S -u joseph bash -c "curl -sL 'https://raw.githubusercontent.com/jetersen/setup/main/scripts/user.sh' | bash"
+  echo 'changeit' | sudo -S -u joseph bash -c "curl -sL 'https://raw.githubusercontent.com/jespermonsted/setup/main/scripts/user.sh' | bash"
 fi
