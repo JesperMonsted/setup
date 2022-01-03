@@ -26,14 +26,14 @@ function install_awscli {
 
 which aws || install_awscli
 
-if id "joseph" &>/dev/null; then
+if id "jesper" &>/dev/null; then
   echo 'user exists'
 else
   # create user
   useradd -m -s "$(which bash)" -G sudo,docker joseph
-  echo 'joseph:changeit' | chpasswd
+  echo 'jesper:changeit' | chpasswd
 
-  chsh joseph -s /usr/bin/zsh
+  chsh jesper -s /usr/bin/zsh
 
   echo 'changeit' | sudo -S -u joseph bash -c "curl -sL 'https://raw.githubusercontent.com/jespermonsted/setup/main/scripts/user.sh' | bash"
 fi
