@@ -5,6 +5,7 @@ winget source update
 $PackageIdentifiers = @(
   "7zip.7zip"
   "Bitwarden.Bitwarden"
+  "dbeaver.dbeaver"
   "Docker.DockerDesktop"
   "Flameshot.Flameshot"
   "gerardog.gsudo"
