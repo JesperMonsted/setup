@@ -21,6 +21,7 @@ $PackageIdentifiers = @(
   "Mirantis.Lens"
   "OlegDanilov.RapidEnvironmentEditor"
   "Parsec.Parsec"
+  "PostgreSQL.PostgreSQL"
   "SlackTechnologies.Slack"
   "Spotify.Spotify"
   "WinSCP.WinSCP"
