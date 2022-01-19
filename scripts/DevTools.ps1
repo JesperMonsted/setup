@@ -1,5 +1,6 @@
 choco install sops
 choco install spacesniffer
+choco install dbeaver
 
 winget source update
 $PackageIdentifiers = @(
@@ -20,6 +21,7 @@ $PackageIdentifiers = @(
   "Microsoft.VisualStudioCode"
   "Microsoft.WindowsTerminal"
   "Mirantis.Lens"
+  "Notepad++.Notepad++"
   "OlegDanilov.RapidEnvironmentEditor"
   "Parsec.Parsec"
   "PostgreSQL.PostgreSQL"
